@@ -152,10 +152,10 @@ body {
           @apply size-8 rounded-full cursor-pointer bg-white text-black flex-center;
         }
       }
-
-      #canvas {
-        @apply !w-full !h-[80vh] lg:!h-dvh relative z-40;
-      }
+    }
+    
+    #canvas {
+      @apply !w-full !h-[80vh] lg:!h-dvh relative z-40;
     }
   }
 }
