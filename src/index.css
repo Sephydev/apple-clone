@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "SemiBold";
+  src: url("/fonts/bold.otf");
+}
+
+@theme {
+  --font-semibold: "SemiBold";
+  --color-dark-100: #86868b;
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #000;
+  color: var(--color-dark-100);
+  font-family: var(--font-semibold);
+}
