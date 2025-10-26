@@ -8,6 +8,7 @@ import Showcase from './components/Showcase';
 import Performance from './components/Performance';
 import Feature from './components/Feature';
 import Highlight from './components/Highlight';
+import Footer from './components/Footer';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -21,6 +22,7 @@ const App = () => {
       <Performance />
       <Feature />
       <Highlight />
+      <Footer />
     </main>
   )
 }
