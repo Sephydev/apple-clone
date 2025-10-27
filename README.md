@@ -1,6 +1,6 @@
 # 🍏 Apple Clone - React Three Fiber & GSAP
 
-![Screenshot](/screenshot.png)
+![Screenshot](./public/screenshot.png)
 
 Un clone du site Apple (section produit) réalisé dans le cadre d'un projet d'apprentissage.
 L'objectif principal était de comprendre comment intégrer des modèles 3D et des animations  complexes dans une application React moderne.
