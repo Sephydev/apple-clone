@@ -1,16 +1,77 @@
-# React + Vite
+# 🍏 Apple Clone - React Three Fiber & GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot](/screenshot.png)
 
-Currently, two official plugins are available:
+Un clone du site Apple (section produit) réalisé dans le cadre d'un projet d'apprentissage.
+L'objectif principal était de comprendre comment intégrer des modèles 3D et des animations  complexes dans une application React moderne.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [Apple Clone](https://apple-clone-kappa-sable.vercel.app/) 
+📦 **Stack principale :** React, Three.js, GSAP, Zustand, TailwindCSS
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Objectifs du projet
 
-## Expanding the ESLint configuration
+- Approfondir mes connaissances de Three.js pour intégrer des modèles `.glb` interactifs.
+- Utiliser **GSAP** pour des animations fluides.
+- Gérer des états globaux (comme la couleur, la taille, ou la vidéo du modèle 3D) via **Zustand**.
+- Assurer un rendu **responsive et optimisé** avec **TailwindCSS**.
+- Déployer un projet professionnel avec **Vercel**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Ce que j'ai appris
+
+- Initialiser la caméra via les attributs de `<Canvas><Canvas />`
+- Gérer des animations synchronisées DOM + 3D avec **GSAP**.
+- Créer un **store global** avec Zustand pour partager des états entre composants.
+- Optimiser des modèles `.glb` grâce à l'option `-T` de `gltfjsx` pour réduire la taille des assets.
+- Adapter des animations en fonction de la taille d'écran avec `react-responsive`.
+
+---
+
+## 🧩 Stack technique
+
+| Technologie     | Rôle                             |
+|-----------------|----------------------------------|
+| **React**       | Structure de l'app et composants |
+| **Three.js**    | Intégration de modèles 3D        |
+| **GSAP**        | Animations                       |
+| **Zustand**     | Gestion d'état globale           |
+| **TailwindCSS** | Mise en page responsive          |
+| **Vite**        | Outil de build et dev server     |
+| **Vercel**      | Déploiement                      |
+
+---
+
+## 💡 Fonctionnalités clés
+
+- 🎨 Personnalisation en temps réel de certains modèles 3D
+- 🌀 Animation synchronisée au scroll
+- 📱 Responsive complet
+- ⚙️ Optimisation des modèles 3D
+- 🚀 Déploiement automatisé via GitHub -> Vercel
+
+---
+
+## 🧩 Défis rencontrés
+
+- **Positionnement des éléments lors des animations GSAP** (résolu après analyse du CSS et des propriétés de ScrollTrigger)
+- **Performance des modèles 3D lourds** (solution : conversion optimisée via `gltfjsx -T`)
+
+## 🔄 Améliorations possibles
+
+- Ajouter un **thème clair/sombre**
+- Proposer un *switch de langue (FR/EN)**
+
+## 💬 Note personnelle
+
+> Ce projet fait partie d'une série de projets tutoriels issus de la playlist [JSMastery - GSAP & Three.js](https://youtube.com/playlist?list=PL6QREj8te1P7d4j3k8Snfa187o-IjXuJx&si=1GRBOz5RZXWt2gaj)
+> J'ai choisi de suivre ces tutos pour renforcer mes compétences techniques et de perfectionner mes bonnes pratiques de développement.
+
+---
+
+## 🧑‍💻 Auteur
+
+**Sephydev**
+🐙 [GitHub](https://github.com/Sephydev)
